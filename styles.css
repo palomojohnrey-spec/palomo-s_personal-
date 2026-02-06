@@ -1,0 +1,177 @@
+/* GENERAL STYLING */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F1E4D1;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+.page {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: none;
+}
+
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: pink;
+    position: fixed;
+    height: 35%;
+    overflow: auto;
+
+}
+
+.sidebar a{
+    display: block;
+    color: block;
+    padding: 19px;
+    text-decoration: none;
+}
+
+.sidebar a.active{
+    background-color: lightcoral;
+    color: white;
+}
+
+.sidebar a:hover:not(.active){
+    background-color: lightcoral;
+    color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+main.container{
+  margin-left: 200px;
+  padding: 1px 16px;
+}
+
+@media screen and (max-width: 700px){
+  .sidebar{
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    main.container{margin-left: 0}
+}
+
+@media screen and (max-width: 400%){
+    .sidebar  a{
+        text-align: center;
+        float: none;
+    }
+}
+
+/* HEADER & NAVIGATION */
+header {
+  background-color: #162660;
+  color: white;
+  padding: 15px 20px;
+  
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color:  #280B08;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* SECTION HEADINGS */
+h2 {
+  color: #280B08;
+  border-bottom: 2px solid #162660;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+/* FEATURED SECTION */
+.featured-box {
+  background-color: gray ;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.featured-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* SERVICES GRID */
+.services-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: white;
+  flex: 1 1 250px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* GALLERY GRID */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+/* CONTACT FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #00008B;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #333399;
+}
