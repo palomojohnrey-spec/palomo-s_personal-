@@ -56,6 +56,8 @@ main.container{
       width: 100%;
       height: auto;
       position: relative;
+      display: flex;
+      justify-content: space-around;
     }
     .sidebar a {float: left;}
     main.container{margin-left: 0}
