@@ -1,17 +1,25 @@
 /* GENERAL STYLING */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial , sans-serif;
   background-color: #F1E4D1;
   margin: 0;
   padding: 0;
   color: #222;
 }
 
-.page {
+.container {
   opacity: 0;
-  transition: opacity 0.5s ease;
-  display: none;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
 }
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 .sidebar{
     margin: 0;
@@ -53,7 +61,7 @@ main.container{
 
 @media screen and (max-width: 700px){
   .sidebar{
-      width: 100%;
+      width: 100pxS;
       height: auto;
       position: relative;
       display: flex;
@@ -63,7 +71,7 @@ main.container{
     main.container{margin-left: 0}
 }
 
-@media screen and (max-width: 400%){
+@media screen and (max-width: 400px){
     .sidebar  a{
         text-align: center;
         float: none;
