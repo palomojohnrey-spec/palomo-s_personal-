@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mountains</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="mountains">
+
+
+<header>
+<div class="logo">Explore<span class="p">P</span><span class="h">H</span></div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="beaches.html">Beaches</a>
+<a href="mountains.html">Mountains</a>
+<a href="about.html">About</a>
+</nav>
+</header>
+
+<section>
+
+<h2>𝒯𝑜𝓅 50 𝒫𝒽𝒾𝓁𝒾𝓅𝓅𝒾𝓃𝑒 𝐵𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁 𝑀𝑜𝓊𝓃𝓉𝒶𝒾𝓃𝓈</h2>
+
+<div class="cards">
+
+<!-- 1. Mount Apo -->
+<div class="card">
+  <img src="https://static.wixstatic.com/media/47e390_66c0f17c72e94f4495da669974d0f906~mv2.jpg/v1/fill/w_2500,h_1406,al_c/47e390_66c0f17c72e94f4495da669974d0f906~mv2.jpg"
+       alt="Mount Apo"
+       onclick="showMap('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37580.507302335136!2d125.25039675607857!3d6.987455552854822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f9011b1d616fe9%3A0x83086f84a0a9e915!2sMount%20Apo!5e1!3m2!1sen!2sph!4v1773062282255!5m2!1sen!2sph')">
+
+  <div class="card-content">
+    <h3>Mount Apo</h3>
+    <p>The highest mountain in the Philippines.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 2. Mount Pulag -->
+<!-- 2. Mount Pulag -->
+<div class="card">
+  <img src="https://images.pexels.com/photos/17816/pexels-photo.jpg"
+       alt="Mount Pulag"
+       onclick="showMap('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36284.20687228825!2d120.87856696576614!3d16.597498686292322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33904accf133372f%3A0xa20b501379e7d400!2sMount%20Pulag!5e1!3m2!1sen!2sph!4v1773062691847!5m2!1sen!2sph')">
+  <div class="card-content">
+    <h3>Mount Pulag</h3>
+    <p>Famous for its sea of clouds.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 3. Mount Mayon -->
+<div class="card">
+  <img src="https://www.vigattintourism.com/assets/tourist_spots_photos/optimize/13434614573sUQ7Z2J.jpg"
+      alt="mount mayon" 
+       onclick="showMap('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36853.07473382587!2d123.66551276151523!3d13.25483092356084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a1a9954fa1731f%3A0xdff71d3eddd0ea0d!2sMayon%20Volcano!5e1!3m2!1sen!2sph!4v1773062930369!5m2!1sen!2sph')">
+  <div class="card-content">
+    <h3>Mount Mayon</h3>
+    <p>Perfect cone volcano in Bicol region.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 4. Mount Kanlaon -->
+<div class="card">
+  <img src="https://i.pinimg.com/originals/59/cb/b4/59cbb4c32986ea25ec5744829cb90fdd.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Kanlaon', '_blank')">
+  <div class="card-content">
+    <h3>Mount Kanlaon</h3>
+    <p>Active volcano in Negros Island.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 5. Mount Kitanglad -->
+<div class="card">
+  <img src="https://mtapotravel.com/wp-content/uploads/2025/08/9.-Mount-Kitanglad-Range-Bukidnon-1024x559.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Kitanglad', '_blank')">
+  <div class="card-content">
+    <h3>Mount Kitanglad</h3>
+    <p>Known for its rich biodiversity.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 6. Mount Banahaw -->
+<div class="card">
+  <img src="https://resilience.up.edu.ph/wp-content/uploads/2025/02/banahaw-profile1.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Banahaw', '_blank')">
+  <div class="card-content">
+    <h3>Mount Banahaw</h3>
+    <p>Spiritual mountain popular for hikes.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 7. Mount Maculot -->
+<div class="card">
+  <img src="https://i.pinimg.com/736x/54/4c/a6/544ca6369d3a1f905c92e0b785f4dea5--philippines-bucket-list.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Maculot', '_blank')">
+  <div class="card-content">
+    <h3>Mount Maculot</h3>
+    <p>Popular day hike near Batangas.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 8. Mount Balatukan -->
+<div class="card">
+  <img src="https://pia.gov.ph/wp-content/uploads/2025/04/Mt.-Balatukan-view-1.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Balatukan', '_blank')">
+  <div class="card-content">
+    <h3>Mount Balatukan</h3>
+    <p>Volcanic mountain in Mindanao.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 9. Mount Matutum -->
+<div class="card">
+  <img src="https://www.funinthephilippines.com/wp-content/uploads/2023/05/cover-photo-mount-matutum-protected-landscape.webp"
+       onclick="window.open('https://maps.google.com?q=Mount+Matutum', '_blank')">
+  <div class="card-content">
+    <h3>Mount Matutum</h3>
+    <p>Extinct volcano in South Cotabato.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 10. Mount Tagapo -->
+<div class="card">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid-aVbGhzkfOUU1rldI8WyI9Uwi6txfJZbJ4KNb8I44MwCVje2t6OUteRpuQJamAxvBBOXO6DiYCHQ6k0rSwNbrGy8QUr9LnaVA81J5QbzbIHc1D84XUV3c54Swhlzduha2SHlthFZLzBn/s1600/mount+tagapo.JPG"
+       onclick="window.open('https://maps.google.com?q=Mount+Tagapo', '_blank')">
+  <div class="card-content">
+    <h3>Mount Tagapo</h3>
+    <p>Scenic mountain on Talim Island.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 11. Mount Makiling -->
+<div class="card">
+  <img src="https://s3-us-west-1.amazonaws.com/peakery-media/images/items/main/cache/mount-makiling-3.JPG.910x680_q95.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Makiling', '_blank')">
+  <div class="card-content">
+    <h3>Mount Makiling</h3>
+    <p>Popular trail near Los Baños, Laguna.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 12. Mount Banoy -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Mount_Banoy.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Banoy', '_blank')">
+  <div class="card-content">
+    <h3>Mount Banoy</h3>
+    <p>Beautiful mountain in Mindoro.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 13. Mount Talinis -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Mount_Talinis.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Talinis', '_blank')">
+  <div class="card-content">
+    <h3>Mount Talinis</h3>
+    <p>Volcanic mountain near Dumaguete.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 14. Mount Napulauan -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Mount_Napulauan.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Napulauan', '_blank')">
+  <div class="card-content">
+    <h3>Mount Napulauan</h3>
+    <p>Remote peak with amazing forest trails.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 15. Mount Nangtud -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Mount_Nangtud.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Nangtud', '_blank')">
+  <div class="card-content">
+    <h3>Mount Nangtud</h3>
+    <p>Second highest mountain in Panay.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+<!-- 16. Mount Kalatungan -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Mount_Kalatungan.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Kalatungan', '_blank')">
+  <div class="card-content">
+    <h3>Mount Kalatungan</h3>
+    <p>Third highest peak in Mindanao.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 17. Mount Dulang-Dulang -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Mount_Dulang-Dulang.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Dulang-Dulang', '_blank')">
+  <div class="card-content">
+    <h3>Mount Dulang-Dulang</h3>
+    <p>Second highest mountain in the Philippines.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 18. Mount Labo -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Mount_Labo.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Labo', '_blank')">
+  <div class="card-content">
+    <h3>Mount Labo</h3>
+    <p>Volcanic mountain in Camarines Norte.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 19. Mount Banoyan -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Mount_Banoyan.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Banoyan', '_blank')">
+  <div class="card-content">
+    <h3>Mount Banoyan</h3>
+    <p>Hidden gem in Mindoro with lush forests.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 20. Mount Mingan -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Mount_Mingan.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Mingan', '_blank')">
+  <div class="card-content">
+    <h3>Mount Mingan</h3>
+    <p>Popular among local hikers in Mindanao.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 21. Mount Isarog -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Mount_Isarog.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Isarog', '_blank')">
+  <div class="card-content">
+    <h3>Mount Isarog</h3>
+    <p>Volcano in Bicol known for biodiversity.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 22. Mount Arayat -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Mount_Arayat.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Arayat', '_blank')">
+  <div class="card-content">
+    <h3>Mount Arayat</h3>
+    <p>Landmark volcano in Pampanga.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 23. Mount Banaji -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Mount_Banaji.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Banaji', '_blank')">
+  <div class="card-content">
+    <h3>Mount Banaji</h3>
+    <p>Remote peak in Mindoro Island.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 24. Mount Buddoy -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Mount_Buddoy.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Buddoy', '_blank')">
+  <div class="card-content">
+    <h3>Mount Buddoy</h3>
+    <p>Forest-covered mountain in Mindanao.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 25. Mount Tagubud -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Mount_Tagubud.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Tagubud', '_blank')">
+  <div class="card-content">
+    <h3>Mount Tagubud</h3>
+    <p>Scenic mountain near Bukidnon.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 26. Mount Maharlika -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Mount_Maharlika.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Maharlika', '_blank')">
+  <div class="card-content">
+    <h3>Mount Maharlika</h3>
+    <p>Peak in the Philippines with panoramic views.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 27. Mount Calayo -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mount_Calayo.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Calayo', '_blank')">
+  <div class="card-content">
+    <h3>Mount Calayo</h3>
+    <p>Volcanic mountain in Batangas.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 28. Mount Mantalingahan -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Mount_Mantalingahan.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Mantalingahan', '_blank')">
+  <div class="card-content">
+    <h3>Mount Mantalingahan</h3>
+    <p>The highest peak in Palawan.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 29. Mount Andong -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Mount_Andong.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Andong', '_blank')">
+  <div class="card-content">
+    <h3>Mount Andong</h3>
+    <p>Popular sunrise hike in Negros Oriental.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 30. Mount Talomo -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Mount_Talomo.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Talomo', '_blank')">
+  <div class="card-content">
+    <h3>Mount Talomo</h3>
+    <p>Mountain in Davao region, great for climbing.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 31. Mount Apo Duat -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Mount_Apo_Duat.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Apo+Duat', '_blank')">
+  <div class="card-content">
+    <h3>Mount Apo Duat</h3>
+    <p>Another peak of Mount Apo massif in Mindanao.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 32. Mount Banji -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Mount_Banji.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Banji', '_blank')">
+  <div class="card-content">
+    <h3>Mount Banji</h3>
+    <p>Remote hiking destination in Mindoro.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 33. Mount Sungay -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Mount_Sungay.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Sungay', '_blank')">
+  <div class="card-content">
+    <h3>Mount Sungay</h3>
+    <p>Volcanic mountain in Cavite.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 34. Mount Macolod -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Mount_Macolod.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Macolod', '_blank')">
+  <div class="card-content">
+    <h3>Mount Macolod</h3>
+    <p>Popular trek near Taal Volcano.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 35. Mount Tagubud II -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Mount_Tagubud_II.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Tagubud+II', '_blank')">
+  <div class="card-content">
+    <h3>Mount Tagubud II</h3>
+    <p>Remote forested peak in Bukidnon.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 36. Mount Kitanglad II -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Mount_Kitanglad_II.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Kitanglad+II', '_blank')">
+  <div class="card-content">
+    <h3>Mount Kitanglad II</h3>
+    <p>Another peak of Kitanglad Range in Bukidnon.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 37. Mount Pantingan -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Mount_Pantingan.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Pantingan', '_blank')">
+  <div class="card-content">
+    <h3>Mount Pantingan</h3>
+    <p>Mountain in Rizal with scenic views.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 38. Mount Sicapoo -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Mount_Sicapoo.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Sicapoo', '_blank')">
+  <div class="card-content">
+    <h3>Mount Sicapoo</h3>
+    <p>Highest mountain in Ilocos Norte.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 39. Mount Labo II -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Mount_Labo_II.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Labo+II', '_blank')">
+  <div class="card-content">
+    <h3>Mount Labo II</h3>
+    <p>Secondary peak of Mount Labo in Bicol.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 40. Mount Banahaw II -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Mount_Banahaw_II.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Banahaw+II', '_blank')">
+  <div class="card-content">
+    <h3>Mount Banahaw II</h3>
+    <p>Secondary peak of Mount Banahaw.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 41. Mount Maculot II -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Mount_Maculot_II.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Maculot+II', '_blank')">
+  <div class="card-content">
+    <h3>Mount Maculot II</h3>
+    <p>Alternate trail route to Mount Maculot summit.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 42. Mount Apo Kidapawan -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Mount_Apo_Kidapawan.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Apo+Kidapawan', '_blank')">
+  <div class="card-content">
+    <h3>Mount Apo Kidapawan</h3>
+    <p>One of the entry trails to Mount Apo.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 43. Mount Balagbag -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Mount_Balagbag.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Balagbag', '_blank')">
+  <div class="card-content">
+    <h3>Mount Balagbag</h3>
+    <p>Mountain in Quezon with lush forest trails.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 44. Mount Macahambus -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Mount_Macahambus.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Macahambus', '_blank')">
+  <div class="card-content">
+    <h3>Mount Macahambus</h3>
+    <p>Cliffside mountain near Cagayan de Oro.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 45. Mount Ulap -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Mount_Ulap.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Ulap', '_blank')">
+  <div class="card-content">
+    <h3>Mount Ulap</h3>
+    <p>Hiking destination in Benguet with ridge trail.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 46. Mount Polis -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Mount_Polis.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Polis', '_blank')">
+  <div class="card-content">
+    <h3>Mount Polis</h3>
+    <p>High peak in Ifugao region.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 47. Mount Tabayoc -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Mount_Tabayoc.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Tabayoc', '_blank')">
+  <div class="card-content">
+    <h3>Mount Tabayoc</h3>
+    <p>Second highest mountain in Luzon.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 48. Mount Tagaytay -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Mount_Tagaytay.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Tagaytay', '_blank')">
+  <div class="card-content">
+    <h3>Mount Tagaytay</h3>
+    <p>Famous for Taal view and nearby trails.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 49. Mount Pico de Loro -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Pico_de_Loro.jpg"
+       onclick="window.open('https://maps.google.com?q=Pico+de+Loro', '_blank')">
+  <div class="card-content">
+    <h3>Mount Pico de Loro</h3>
+    <p>Iconic mountain in Cavite with Parrot’s Beak peak.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+
+<!-- 50. Mount Sembrano -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Mount_Sembrano.jpg"
+       onclick="window.open('https://maps.google.com?q=Mount+Sembrano', '_blank')">
+  <div class="card-content">
+    <h3>Mount Sembrano</h3>
+    <p>Mountain between Laguna and Rizal.</p>
+    <button onclick="likePlace(event,this)">❤️ Like</button>
+  </div>
+</div>
+</div>
+
+</section>
+
+
+<div id="mapPopup" class="popup">
+<div class="popup-content">
+
+<span class="close" onclick="closeMap()">&times;</span>
+
+<iframe id="mapFrame" width="100%" height="400"></iframe>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
